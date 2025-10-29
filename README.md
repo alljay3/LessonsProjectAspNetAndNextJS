@@ -13,12 +13,12 @@ cd backend
 dotnet ef database update -p BookStore.DataAccess -s BookStore.API
 
 
-### Backend
-```bash
+## Backend
+
 cd backend/BookStore.API
 dotnet run
 
-### Frontend
+## Frontend
 cd frontend
 
 npm install 

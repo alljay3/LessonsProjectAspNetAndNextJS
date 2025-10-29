@@ -5,7 +5,21 @@
 - `frontend/` - Next.js application
 
 ## Development
+
+## Init database
+
+docker compose up -d
+cd backend
+dotnet ef database update -p BookStore.DataAccess -s BookStore.API
+
+
 ### Backend
 ```bash
-cd backend
+cd backend/BookStore.API
 dotnet run
+
+### Frontend
+cd frontend
+
+npm install 
+npm run dev

@@ -8,26 +8,29 @@
 
 ## Init database
 
+```bash
 docker compose up -d
 cd backend
 dotnet ef database update -p BookStore.DataAccess -s BookStore.API
-
-```bash
-
+```
 ## Backend
 
+```bash
 cd backend/BookStore.API
 dotnet run
-
+```
+```bash
 ## Frontend
 cd frontend
-
 npm install 
 npm run dev
-
+```
 
 Frontend:
+```bash
 http://localhost:3000
-
+```
 Backend: 
+```bash
 http://localhost:5007
+```

@@ -12,6 +12,7 @@ docker compose up -d
 cd backend
 dotnet ef database update -p BookStore.DataAccess -s BookStore.API
 
+```bash
 
 ## Backend
 

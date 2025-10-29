@@ -1,25 +1,30 @@
 # Book Project
 
-## Project Structure
+## Структра проекта
 - `backend/` - ASP.NET Core API
-- `frontend/` - Next.js application
+- `frontend/` - Next.js application`
 
 ## Development
 
-## Init database
+Должны быть установлены:
+dontnet
+docker
+node.js
+
+## Инициализация базы данных при первом запуске 
 
 ```bash
 docker compose up -d
 cd backend
 dotnet ef database update -p BookStore.DataAccess -s BookStore.API
 ```
-## Backend
+## Backend (Запуск в отдльной консоли)
 
 ```bash
 cd backend/BookStore.API
 dotnet run
 ```
-## Frontend
+## Frontend (Запуск в отдльной консоли)
 ```bash
 cd frontend
 npm install 

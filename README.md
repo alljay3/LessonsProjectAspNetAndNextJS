@@ -19,8 +19,8 @@ dotnet ef database update -p BookStore.DataAccess -s BookStore.API
 cd backend/BookStore.API
 dotnet run
 ```
-```bash
 ## Frontend
+```bash
 cd frontend
 npm install 
 npm run dev

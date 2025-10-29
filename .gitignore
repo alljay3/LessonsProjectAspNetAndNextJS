@@ -15,32 +15,32 @@ backend/.vs/
 backend/*.csproj.user
 
 # Frontend - общие исключения
-frontend/bookstore/node_modules/
-frontend/bookstore/.pnp
-frontend/bookstore/.pnp.*
-frontend/bookstore/.yarn/*
-!frontend/bookstore/.yarn/patches
-!frontend/bookstore/.yarn/plugins
-!frontend/bookstore/.yarn/releases
-!frontend/bookstore/.yarn/versions
-frontend/bookstore/coverage/
-frontend/bookstore/.next/
-frontend/bookstore/out/
-frontend/bookstore/build/
-frontend/bookstore/.env*
-frontend/bookstore/.vercel/
-frontend/bookstore/*.tsbuildinfo
-frontend/bookstore/next-env.d.ts
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+frontend/coverage/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*
+frontend/.vercel/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
 
 # Frontend - debug logs
-frontend/bookstore/npm-debug.log*
-frontend/bookstore/yarn-debug.log*
-frontend/bookstore/yarn-error.log*
-frontend/bookstore/.pnpm-debug.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
 
 # Frontend - misc
-frontend/bookstore/.DS_Store
-frontend/bookstore/*.pem
+frontend/.DS_Store
+frontend/*.pem
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 

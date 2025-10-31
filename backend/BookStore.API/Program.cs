@@ -24,6 +24,12 @@ builder.Services.AddScoped<IBookService, BookService>();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<BookStoreDbContext>();
+    dbContext.Database.Migrate();
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -38,7 +44,15 @@ app.MapControllers();
 app.UseCors(x =>
 {
     x.WithHeaders().AllowAnyHeader();
-    x.WithOrigins("http://localhost:3000");
+    x.WithOrigins(
+                "http://localhost",          
+                "http://localhost:80",       
+                "https://localhost",         
+                "https://localhost:443",    
+                "http://127.0.0.1",         
+                "http://127.0.0.1:80",
+                "http://localhost:3000"
+    );
     x.WithMethods().AllowAnyMethod();
 });
 

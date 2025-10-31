@@ -727,11 +727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\BookeStore.Application.csproj",
+      "projectUniqueName": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\BookeStore.Application.csproj",
       "projectName": "BookeStore.Application",
-      "projectPath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\BookeStore.Application.csproj",
+      "projectPath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\BookeStore.Application.csproj",
       "packagesPath": "C:\\Users\\mihas\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\obj\\",
+      "outputPath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Visual Studio 2022 packages\\NuGetPackages"
@@ -752,8 +752,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {
-              "projectPath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.DataAccess\\BookStore.DataAccess.csproj"
+            "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.DataAccess\\BookStore.DataAccess.csproj": {
+              "projectPath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.DataAccess\\BookStore.DataAccess.csproj"
             }
           }
         }

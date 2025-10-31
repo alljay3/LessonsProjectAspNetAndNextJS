@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NxdOl6Z3y7I=",
+  "dgSpecHash": "MurJoZkU6HA=",
   "success": true,
-  "projectFilePath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\BookStore.Core.csproj",
+  "projectFilePath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\BookStore.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

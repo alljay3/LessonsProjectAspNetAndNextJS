@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\BookStore.Core.csproj",
+      "projectUniqueName": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\BookStore.Core.csproj",
       "projectName": "BookStore.Core",
-      "projectPath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\BookStore.Core.csproj",
+      "projectPath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\BookStore.Core.csproj",
       "packagesPath": "C:\\Users\\mihas\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\obj\\",
+      "outputPath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookStore.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Visual Studio 2022 packages\\NuGetPackages"

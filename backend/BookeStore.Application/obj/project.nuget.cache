@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6jULNFEoKQQ=",
+  "dgSpecHash": "FX2fLErfVF8=",
   "success": true,
-  "projectFilePath": "E:\\Programming\\CSHARP\\NetProject\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\BookeStore.Application.csproj",
+  "projectFilePath": "E:\\Programming\\CSHARP\\NetProject\\BookDocker\\LessonsProjectAspNetAndNextJS\\backend\\BookeStore.Application\\BookeStore.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mihas\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.10\\microsoft.entityframeworkcore.9.0.10.nupkg.sha512",
     "C:\\Users\\mihas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.10\\microsoft.entityframeworkcore.abstractions.9.0.10.nupkg.sha512",

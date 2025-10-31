@@ -32,3 +32,15 @@ E:\Programming\CSHARP\NetProject\LessonsProjectAspNetAndNextJS\backend\BookStore
 E:\Programming\CSHARP\NetProject\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\refint\BookStore.Core.dll
 E:\Programming\CSHARP\NetProject\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.pdb
 E:\Programming\CSHARP\NetProject\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\ref\BookStore.Core.dll
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.deps.json
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.dll
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\bin\Debug\net9.0\BookStore.Core.pdb
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.AssemblyInfoInputs.cache
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.AssemblyInfo.cs
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.csproj.CoreCompileInputs.cache
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.sourcelink.json
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.dll
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\refint\BookStore.Core.dll
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\BookStore.Core.pdb
+E:\Programming\CSHARP\NetProject\BookDocker\LessonsProjectAspNetAndNextJS\backend\BookStore.Core\obj\Debug\net9.0\ref\BookStore.Core.dll

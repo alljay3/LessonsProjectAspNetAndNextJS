@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookStore.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class BooksController : ControllerBase
     {
         private readonly IBookService _bookService;

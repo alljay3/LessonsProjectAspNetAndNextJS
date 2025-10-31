@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/Books": {
+    "/api/Books": {
       "get": {
         "tags": [
           "Books"
@@ -92,7 +92,7 @@
         }
       }
     },
-    "/Books/{id}": {
+    "/api/Books/{id}": {
       "put": {
         "tags": [
           "Books"

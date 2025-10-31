@@ -16,19 +16,23 @@ services:
       timeout: 5s       
       retries: 10      
       start_period: 5s 
+    networks:
+      - dev
 
   nextjs:
-    container_name: nextjs
+    container_name: frontend
     image: nextjs-app:latest
     # Убираем проброс портов, так как Nginx будет проксировать запросы
-    # ports:
-    #   - "3000:3000"
+    ports:
+      - "3000:3000"
     expose:
       - "3000"
+    networks:
+      - dev
 
   bookapp:
-    container_name: bookstoreapi
-    image: bookstoreapi:latest
+    container_name: backend
+    image: alljay2/bookstoreapi
     environment:
       - ASPNETCORE_HTTP_PORTS=5008
     ports:
@@ -36,6 +40,8 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    networks:
+      - dev
 
   nginx:
     container_name: nginx
@@ -49,6 +55,11 @@ services:
     depends_on:
       - nextjs
     restart: unless-stopped
+    networks:
+      - dev
 
 volumes:
   postgres-data:
+
+networks:
+    dev:

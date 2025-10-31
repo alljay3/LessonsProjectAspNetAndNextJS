@@ -2,7 +2,7 @@
   {
     "ContainingType": "BookStore.API.Controllers.BooksController",
     "Method": "GetBooks",
-    "RelativePath": "Books",
+    "RelativePath": "api/Books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "BookStore.API.Controllers.BooksController",
     "Method": "CreateBook",
-    "RelativePath": "Books",
+    "RelativePath": "api/Books",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "BookStore.API.Controllers.BooksController",
     "Method": "UpdateBooks",
-    "RelativePath": "Books/{id}",
+    "RelativePath": "api/Books/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -79,7 +79,7 @@
   {
     "ContainingType": "BookStore.API.Controllers.BooksController",
     "Method": "DeleteBook",
-    "RelativePath": "Books/{id}",
+    "RelativePath": "api/Books/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

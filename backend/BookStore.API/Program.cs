@@ -43,11 +43,9 @@ app.MapControllers();
 
 app.UseCors(x =>
 {
-    x.WithHeaders().AllowAnyHeader();
-    x.WithOrigins(
-        "http://localhost:3000"
-    );
-    x.WithMethods().AllowAnyMethod();
+    x.AllowAnyHeader();
+    x.AllowAnyMethod();
+    x.WithOrigins("http://localhost:3000", "http://host.docker.internal:3000");
 });
 
 app.Run();

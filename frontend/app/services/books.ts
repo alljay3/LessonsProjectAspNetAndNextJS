@@ -5,12 +5,12 @@ export interface BookRequest{
 }
 
 export const getAllBooks = async () => {
-    const response = await fetch("http://localhost:5008/api/Books");
+    const response = await fetch("/api/books");
     return response.json();
 }
 
 export const createBook = async (bookRequest: BookRequest) => {
-    await fetch("http://localhost:5008/api/Books", {
+    await fetch("/api/books", {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -20,7 +20,7 @@ export const createBook = async (bookRequest: BookRequest) => {
 }
 
 export const updateBook = async (id : string, bookRequest: BookRequest) => {
-        await fetch(`http://localhost:5008/api/Books/${id}`, {
+    await fetch(`/api/books/${id}`, {
         method: "PUT",
         headers: {
             "content-type": "application/json"
@@ -30,7 +30,7 @@ export const updateBook = async (id : string, bookRequest: BookRequest) => {
 }
 
 export const deleteBook = async (id : string) => {
-        await fetch(`http://localhost:5008/api/Books/${id}`, {
+    await fetch(`/api/books/${id}`, {
         method: "DELETE",
     })
 }

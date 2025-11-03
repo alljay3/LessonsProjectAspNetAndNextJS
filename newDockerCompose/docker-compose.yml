@@ -32,7 +32,10 @@ services:
 
   bookapp:
     container_name: backend
-    image: alljay2/bookstoreapi
+    image: ${DOCKER_REGISTRY-}bookstoreapi
+    build:
+      context: .
+      dockerfile: backend/BookStore.API/Dockerfile
     environment:
       - ASPNETCORE_HTTP_PORTS=5008
     ports:

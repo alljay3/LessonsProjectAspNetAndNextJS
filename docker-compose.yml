@@ -3,13 +3,66 @@ services:
     container_name: postgres
     image: postgres:latest
     environment:
-        POSTGRES_DB: "db"
-        POSTGRES_USER: "postgres"
-        POSTGRES_PASSWORD: "123"
+      POSTGRES_DB: "db"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "123"
     volumes:
-        - postgres-data:/var/lib/postgres/data
+      - postgres-data:/var/lib/postgres/data
     ports:
-        - "5432:5432"     
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d db"]
+      interval: 5s      
+      timeout: 5s       
+      retries: 10      
+      start_period: 5s 
+    networks:
+      - dev
+
+  nextjs:
+    container_name: frontend
+    image: ${DOCKER_REGISTRY-}nextjsapp
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    expose:
+      - "3000"
+    networks:
+      - dev
+
+  bookapp:
+    container_name: backend
+    image: ${DOCKER_REGISTRY-}bookstoreapi
+    build:
+      context: ./backend
+      dockerfile: BookStore.API/Dockerfile
+    environment:
+      - ASPNETCORE_HTTP_PORTS=5008
+    expose:
+      - "5008"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dev
+
+  nginx:
+    container_name: nginx
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - nextjs
+    networks:
+      - dev
 
 volumes:
-  postgres-data:   
+  postgres-data:
+
+networks:
+  dev:
+    driver: bridge

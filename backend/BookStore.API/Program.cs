@@ -45,7 +45,7 @@ app.UseCors(x =>
 {
     x.AllowAnyHeader();
     x.AllowAnyMethod();
-    x.WithOrigins("http://localhost:3000", "http://host.docker.internal:3000");
+    x.AllowAnyOrigin();
 });
 
 app.Run();
